@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+<head>
+<link rel="icon" type="image/png" sizes="16x16" href="images\logo.png">
+<title>Formulaire</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="CSS\style.css">
+<link rel="stylesheet" href="CSS\formulaire.css">
+</head>
+<header>
+            <div class="banniere">
+                <img class="haut-gauche" src="images/medicale-banniere.jpg" alt="img-medicale-banniere">
+                <nav>
+                    <ul>
+                        <li class="bouton"><a href="index.html">Accueil</a></li>
+                        <li class="bouton"><a href="horaires.html">Horaires</a></li>
+                        <li class="bouton"><a href="specialites.html">Spécialités</a></li>
+                        <li class="bouton"><a href="priserdv.html">Rendez-vous</a></li>
+                        <li class="bouton"><a href="formulaire.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+<body>
+    <body>
+    <fieldset class="fieldset">
+        <form action="" method="get" enctype=" multipart/form-data">
+        <table class="table2">
+            <tr>
+        <td><label for="nom">Nom:</label></td>
+        <td><input class="rose" id="nom" name="nom" placeholder="votre nom"/><br></mark></td>
+            <tr>
+        <td><label for="nom">Prénom: </label></td>
+        <td><input class="rose" type="text" name="prenom" placeholder="votre prénom"/> <br></mark></td>
+        <tr>
+        <td><label for="date">Date de naissance:</label></td>
+        <td><input id="date" name="date" type="date" placeholder="jj/mm/aaaa"/><br></td>
+        <tr>
+        <td><label for="mail">Mail:</label></td>
+        <td><input id="mail" name="mail" type="email" placeholder="votre mail"/><br></td>
+        <tr>
+        <td><label for="site">Votre site:</label></td>
+        <td><input id="site" name="site" type="url" placeholder="http://www."/><br></td>
+        <tr>
+        <td><label for="genre">Genre:</label></td>
+        <td><input name="genre" type="radio" value="H"/>Homme
+        <input name="genre" type="radio" value="F"/>Femme <br></td>
+        <tr>
+        <td><label for="pays">Pays:</label></td>
+        <td>
+        Votre Pays:
+        <select name="select">
+                    <optgroup label="Asie">
+                        <option value="1" selected>Japon</option>
+                        <option value="2">Chine</option>
+                        <option value="3">Corée</option>
+                        <option value="4">Inde</option>
+                    </optgroup>
+                    <optgroup label="Europe">
+                        <option value="5">France</option>
+                        <option value="6">Suisse</option>
+                        <option value="7">Belgique</option>
+                        <option value="8">Italie</option>
+                    </optgroup>
+                    <optgroup label="Amérique">
+                        <option value="9">Canada</option>
+                        <option value="10">Brésil</option>
+                        <option value="11">Etats-Unis</option>
+                        <option value="12">Cuba</option>
+                    </optgroup>
+                </select>
+    </td>
+    </tr>
+    </table>
+    </fieldset>
+    <fieldset class="fieldset2">
+        <table class="table3">
+            <tr>
+                <td><label for="xx"></label>
+                    <h4>Schéma vaccinal</h4>
+                <input name="xx[]" type="checkbox" value="v1" />Covid - Schéma complet<br>
+                    <input name="xx[]" type="checkbox" value="v2" />Autres Vaccins<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="yname"></label>
+                        <textarea rows="5" cols="50" maxlength="300" placeholder="                Vos antécédents médicaux"></textarea><br></table></fieldset>
+
+                <fieldset class="fieldset2">
+        <table class="table3">
+            <tr>
+                <td>
+                    <label for="yname"></label>
+                    <input type="file" placeholder="Choisir un fichier"><br>
+                </td>
+                <tr>
+                    <td>
+                        <input type="reset" value="Effacer">
+                        <input type="submit" value="Envoyer">
+                    </td>
+                </tr>
+            </tr>
+        </form>
+    </table>
+</fieldset>
+</body>
+<footer>
+        <div class="footer-container"><p>En cas d'absence, vous pouvez <a href="https://www.doctolib.fr/cabinet-medical/beauchamp/cabinet-de-medecins-specialistes-de-beauchamp-beauchamp">consulter ce site</a><br>Je suis par ailleurs membre de démonstration des MMT</p></div>
+</footer>

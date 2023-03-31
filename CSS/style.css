@@ -1,0 +1,120 @@
+header{
+ padding: 0 0 0.2em 0;
+ margin: 0 0 2em 0;
+ border-bottom: 0px solid #c0c0c0;
+}
+.banniere{
+ padding: 0.5em;
+}
+
+.haut-gauche{
+ display: block;
+ max-height: 10em;
+ margin-left: auto;
+ margin-right: auto;
+ position: center;
+ height : auto;
+ margin-top : 0px;
+ margin-bottom : 2em;
+ width: 100%;
+ background-color: #FFFFFF;/
+}
+
+nav{
+ margin: 0;
+ text-align: center;
+ min-height: 30px;
+}
+
+.bouton a{
+ text-decoration: none;
+ color: #973933;
+}
+
+.bouton{
+	display: inline-block;
+	background-color: #dbeca9;
+	border-radius: 10px;
+	border: 1px double #cccccc;
+	color: #eeeeee;
+	text-align: center;
+	font-size: 21px;
+	width: 130px;
+	cursor: pointer;
+	box-shadow: 10px 5px 5px rgba(125,112,148,255);
+}
+
+body{
+ background-image: url("../images/pole-taverny.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+ margin: 0;
+ padding: 0;
+}
+.bleu{
+	color: #2e41e8;
+}
+.bc{
+	display: block;
+	background-color: #cfc9d4;
+	opacity: 0.6;
+	height : auto;
+	width: 70%;
+	box-shadow: 10px 5px 5px rgba(125,112,148,255);
+	padding: 0 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer-container{
+  max-width: 400px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+footer{
+	background:  #cfc9d4;
+	padding: 5px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+}
+.titre{
+	display: block;
+	text-align: center;
+	background-color: #9400d4;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2.7%;
+	margin-bottom: 0;
+	width: 45%;
+	height: 1.1em;
+	font-size: 1.6em;
+	border-left: thin solid white;
+	border-bottom: 0.1em solid white;
+	border-right: 0.1em solid white;
+}
+.align{
+	color: #486874;
+	text-align: center;
+	line-height: 180%;
+}
+.select1{
+	display: block;
+	color: #4199c2;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+	box-shadow: 3px 3px 1px rgba(223,222,218,255);
+	width: 28em;
+	height: 2.5em;
+	border: thin solid #c1beba;
+	font-weight: bold;
+}
